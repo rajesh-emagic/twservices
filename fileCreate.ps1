@@ -1,0 +1,1 @@
+﻿New-Item -ItemType File -path C:\test1.txt
