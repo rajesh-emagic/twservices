@@ -63,6 +63,7 @@ Catch
 #----------end hosting environment-----------------------
 
 #---------------Download TwinWorX solution---------------
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $url= "https://github.com/rajesh-emagic/twservices/blob/master/TwinWorXServicesPublish.zip?raw=true"
 #$output = "D:\psfile\master.zip"
 # TwinWorXPublish
