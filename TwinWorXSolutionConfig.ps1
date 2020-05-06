@@ -10,7 +10,10 @@ param(
       [string]$eventHubConnectionString
      
   )
+New-Item -ItemType File -path C:\test1.txt
+$value=$iothubname+$iothubCompatibleEndpoint+$iothubCompatiblePath+$iothubs_iotHubSasKey+$s_iotHubSasKeyName+$ConsumerGroup+$eventhubname+$eventHubConnectionString
 
+Set-Content -Path C:\test1.txt -Value $value
 #----------------------get parameter---------------------
 
 # ----------------------iis installation---------------
